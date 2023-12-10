@@ -33,3 +33,47 @@ body {
   transform: translate(0, 0);
   transition: transform 0.5s ease-in-out;
 }
+
+.link {
+  width: 150px;
+  height: 50px;
+  background-color: rgba(5, 113, 22, 0.614);
+  color: white;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 15 20;
+  border-radius: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.link:hover {
+  color: black;
+  background-color: tomato;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid tomato;
+  padding: 60px 15px;
+  border-radius: 7px;
+  margin-left: 20px;
+  display: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.timer {
+  margin-left: 5px;
+  color: red;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
